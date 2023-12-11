@@ -4,4 +4,4 @@ python:
   - "3.5"
 # command to run tests
 script:
-  - python test_suite.py
+  - python Banking/test_suite.py
