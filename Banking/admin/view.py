@@ -9,7 +9,7 @@ class AdminView(Store):
 
     def __init__(self, run=True):
         super(AdminView, self).__init__()
-        self.users = {}
+        
         self.action = action(self.users)
         if run:
             self.admin_view()
