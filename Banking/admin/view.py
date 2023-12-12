@@ -9,7 +9,6 @@ class AdminView(Store):
 
     def __init__(self, run=True):
         super(AdminView, self).__init__()
-        
         self.action = action(self.users)
         if run:
             self.admin_view()
@@ -19,28 +18,6 @@ class AdminView(Store):
         self.save_all_data()
 
 
-    
-#    def login(self):
-#         _login = False
-        
-#         for i in range(3):
-#             _user = input('admin username: ')
-#             _password = input('admin password: ')
-
-#             if _user == '1' and _password == '1':
-#                 print('Login successful!')
-#                 # Check if the user is already in the dictionary
-#                 if _user not in self.users:                    
-#                     self.users[_user] = user
-#                 _login = True
-#                 break
-#             else:
-#                 print('Incorrect User name or Password!')
-                
-#         if not _login:
-#             self.users = None  
-
-#         return _login
 
     def login(self):
         _user = input('admin username: ')
