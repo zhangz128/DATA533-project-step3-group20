@@ -35,7 +35,7 @@ class action(object):
             print("Create User Successfully! Please remember the card number...(%s)" % cardId)
 
         except ValueError as e:
-            print(f"Error: {e}")
+            print("Error: {}".format(e))
             return -1
 
 
@@ -71,7 +71,7 @@ class action(object):
             print("Remove the user successfully!")
 
         except ValueError as e:
-            print(f"Error: {e}")
+            print("Error: {}".format(e))
             return -1
         
 
@@ -83,8 +83,9 @@ class action(object):
             else:
                 raise ValueError("Incorrect Password")
         except ValueError as e:
-            print(f"Error: {e}")
+            
+            print("Error: {}".format(e))
             return False
         except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+            print("An unexpected error occurred: {}".format(e)")
             return False
