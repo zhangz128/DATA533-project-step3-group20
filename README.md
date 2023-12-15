@@ -71,4 +71,6 @@ checkPasswd: Validates the password with a maximum of three attempts.
 ## Coverage Reports
 ![report](/Coverage_Reports.png)
 
+NOTE: the lack of coverage for admin/view is UI code and for user/transaction is print statement
+
 pypi: https://pypi.org/project/banking633/0.0.2/
