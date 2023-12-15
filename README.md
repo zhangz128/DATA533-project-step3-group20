@@ -67,4 +67,8 @@ deposit: Processes a deposit.
 transfer: Handles fund transfers between accounts.
 checkPasswd: Validates the password with a maximum of three attempts.
 
+
+## Coverage Reports
+![report](/Coverage_Reports.png)
+
 pypi: https://pypi.org/project/banking633/0.0.2/
